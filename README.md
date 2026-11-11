@@ -1,3 +1,17 @@
+> ⚠️ **Work in Progress — Not Ready for Use**
+>
+> **dsh-live2d-kot-kit** is in the early stages of development.
+>
+> This repository is currently based on [dsh-whale-girl-live2d](https://github.com/Andersen216/dsh-whale-girl-live2d) and may still contain unmodified code and assets from the original project.
+>
+> The planned Live2D cat characters — **Yellow Cat, Masik, and Busik** — have not yet been implemented.
+>
+> **This is not a functional release. Installation and use are not recommended at this stage.**
+>
+> All original third-party assets will be removed or replaced before the first public release. Copyright notices and applicable licenses remain in effect.
+>
+> **Status:** 🚧 Under Development | No Releases Available
+> 
 <div align="center">
 
 
