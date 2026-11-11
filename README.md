@@ -11,6 +11,31 @@
 > All original third-party assets will be removed or replaced before the first public release. Copyright notices and applicable licenses remain in effect.
 >
 > **Status:** 🚧 Under Development | No Releases Available
+
+# 🐈 Kot Kit · Live2D Cats for DSH
+
+**Kot Kit** is a planned collection of three animated Live2D cat companions for the DSH (DeepSeek Harness) Web UI. The goal is to react to real agent activity, display expressions and motions, and let users interact with the agent from the companion UI.
+
+| Character | Model ID | Design |
+| --- | --- | --- |
+| Yellow Cat | `yellow-cat` | A minimalist cartoon cat based on the original yellow-cat drawing |
+| Masik | `masik` | Based on photos of a real cat, to be provided later; no breed claim |
+| Busik | `busik` | Based on photos of a real cat, to be provided later |
+
+All three characters will share a consistent visual language while retaining their individual appearance. **No original Whale Girl character models are planned for Kot Kit releases.** The current repository may still contain upstream assets while migration is in progress; do not redistribute it as a Kot Kit release yet.
+
+**Development approach:** Codex prepares layered graphics and rigging instructions; Live2D Cubism 5.3 is used manually for import, rigging and native `.moc3` export. See [the model workflow](docs/KOT_KIT_MODEL_WORKFLOW.md).
+
+**Project status:** No cat models, verified installation instructions, or usable Kot Kit release are available yet. The upstream documentation below is retained for reference only and **does not describe the current Kot Kit functionality**.
+
+**Origin and attribution:** This project is based on [Andersen216/dsh-whale-girl-live2d](https://github.com/Andersen216/dsh-whale-girl-live2d). The upstream code is MIT-licensed; original artwork and bundled third-party runtimes have separate terms. See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), and [PROVENANCE.md](PROVENANCE.md). Free distribution of Kot Kit does not change those licenses.
+
+---
+
+<details>
+<summary><strong>Archived upstream README — Whale Girl (reference only; not Kot Kit installation instructions)</strong></summary>
+
+
 > 
 <div align="center">
 
@@ -596,3 +621,5 @@ dsh-whale-girl-live2d/
 - **Windows 版双击没反应 / 一闪就退？** 先把解压目录换成**纯英文、不含空格**的路径
   （例如 `D:\whalepet\`）。含空格或中文的路径在部分机器上会触发 Electron 启动崩溃
   （[Issue #6](https://github.com/Andersen216/dsh-whale-girl-live2d/issues/6)），换路径即可。
+
+</details>
